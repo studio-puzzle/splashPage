@@ -5,22 +5,21 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Studio Puzzle</title>
-    <script type="module" crossorigin src="https://studio-puzzle.github.io/splashPage/assets/index-DiMBpA6r.js"></script>
-    <link rel="stylesheet" crossorigin href="https://studio-puzzle.github.io/splashPage/assets/index-Y6Qia3Tn.css">
+    <script type="module" crossorigin src="/puzzleSplashSite-01/assets/index-C9-L2RrR.js"></script>
+    <link rel="stylesheet" crossorigin href="/puzzleSplashSite-01/assets/index-C0Hrhb7q.css">
   </head>
   <body>
     <div id="myForm">
-
       <div id="mailForm">
         <div id="formTop">
           <div id="formHeader">
             <div id="closeButton">Contact</div>
             <ul id="socialsGroup">
               <li>
-                <a id="insta" href="https://cdn-yotpo-images-production.yotpo.com/instagram/36/18277075852140836/standard_resolution.jpg">INSTAGRAM</a>
+                <a id="insta" href="https://www.instagram.com/studio__puzzle/profilecard/?igsh=MWt0MmFzN3BhN2txaQ==">INSTAGRAM</a>
               </li>
               <li>
-                <a id="linkedin" href="https://cdn-yotpo-images-production.yotpo.com/instagram/36/18277075852140836/standard_resolution.jpg">LINKEDIN</a>
+                <a id="linkedin" href="https://www.linkedin.com/company/studiopuzzle/">LINKEDIN</a>
               </li>
             </ul>
           </div>
@@ -29,7 +28,6 @@
         </div>
         <div id="formBottom">
           <form id="formFields">
-            <!-- add required tag   required   to all 3 of these-->
             <input type='text' name='name' id='name'  placeholder="Name" required></input>
 
             <input type='email' name='email' id='email' placeholder="Email" required></input>
@@ -40,10 +38,10 @@
           </form>
         </div>
       </div>
-
     </div>
-    <!-- <script type="module" src="/scripts/formAnims.js"></script> -->
+    <!--
     <canvas id="myCanvas"></canvas>
+    -->
     <footer id="copyright"></footer>
     <!--
     <script>
@@ -52,5 +50,13 @@
         .textContent = `© STUDIO PUZZLE ${new Date().getFullYear()}`;
     </script>
     -->
+
+    <script>
+      window.onload = function () {
+        document
+          .getElementById("mailForm")
+          .scrollTo(0, 0);
+      };
+    </script>
   </body>
 </html>
